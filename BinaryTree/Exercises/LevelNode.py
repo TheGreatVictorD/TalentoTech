@@ -60,7 +60,7 @@ tree.insert(6)
 tree.insert(8)
 
 # Obtener y mostrar el nivel de un nodo específico
-target_node_value = 0
+target_node_value = 8
 node_level = tree.get_node_level(tree.root, target_node_value)
 if node_level != 0:
     print(f"El nivel del nodo con valor {target_node_value} es {node_level}.")

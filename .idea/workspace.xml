@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afa07ded-cb1e-4c71-956e-cf508506ec77" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/Builder/Builder_V1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/Builder/Builder_V2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/Builder/builder_V3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryTree/Exercises/CompleteTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryTree/Exercises/DeleteNode.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree/BinaryTreeOperations/HighTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/BinaryTreeOperations/HighTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/Exercises/LevelTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/Exercises/LevelNode.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,31 +49,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.BinaryTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Builder_V1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HighTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.InordenTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LevelTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PostOrdenTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PostordenTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PreordenTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Prueba.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SearchTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Singlenton_V1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Singlenton_V2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Singlenton_V3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SumNodes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.builder_V3.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Big Boy/OneDrive - UNIVERSIDAD INDUSTRIAL DE SANTANDER/Git Repositories/TalentoTech&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;file.status.colors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.BinaryTree.executor": "Run",
+    "Python.Builder_V1.executor": "Run",
+    "Python.CompleteTree.executor": "Run",
+    "Python.DeleteNode.executor": "Run",
+    "Python.HighTree.executor": "Run",
+    "Python.InordenTree.executor": "Run",
+    "Python.LevelTree.executor": "Run",
+    "Python.PostOrdenTree.executor": "Run",
+    "Python.PostordenTree.executor": "Run",
+    "Python.PreordenTree.executor": "Run",
+    "Python.Prueba.executor": "Run",
+    "Python.SearchTree.executor": "Run",
+    "Python.Singlenton_V1.executor": "Run",
+    "Python.Singlenton_V2.executor": "Run",
+    "Python.Singlenton_V3.executor": "Run",
+    "Python.SumNodes.executor": "Run",
+    "Python.builder_V3.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Big Boy/OneDrive - UNIVERSIDAD INDUSTRIAL DE SANTANDER/Git Repositories/TalentoTech",
+    "settings.editor.selected.configurable": "file.status.colors"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="BinaryTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TalentoTech" />
@@ -152,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712630078097</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1712720215900</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712720215900</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
