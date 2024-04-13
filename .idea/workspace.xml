@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afa07ded-cb1e-4c71-956e-cf508506ec77" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/DesignPatterns/Singlenton/Singlenton_V1.py" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/Singlenton/Singlenton_V1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPatterns/Singlenton/Singlenton_V2.py" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/Singlenton/Singlenton_V2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPatterns/Singlenton/Singlenton_V3.py" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/Singlenton/Singlenton_V3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +182,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712887479593</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1712888892375</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712888892375</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1712889086580</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712889086581</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
