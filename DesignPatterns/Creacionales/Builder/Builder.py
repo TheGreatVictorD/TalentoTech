@@ -7,6 +7,13 @@ class Builder(ABC):
     """
     The Builder interface specifies methods for creating the different parts of
     the Product objects.
+
+    class Builder(ABC):: Define una clase abstracta llamada Builder que hereda de la clase ABC, lo que la convierte
+    en una clase abstracta en Python.
+
+    @property y @abstractmethod:: Son decoradores que indican que los métodos product, produce_part_a, produce_part_b,
+    y produce_part_c son métodos abstractos y deben ser implementados por las clases que hereden de la clase padre
+    Builder.
     """
 
     @property
@@ -32,6 +39,15 @@ class ConcreteBuilder1(Builder):
     The Concrete Builder classes follow the Builder interface and provide
     specific implementations of the building steps. Your program may have
     several variations of Builders, implemented differently.
+
+    class ConcreteBuilder1(Builder):: Define una clase concreta ConcreteBuilder1 que implementa la interfaz Builder.
+    def __init__(self) -> None:: Define el método de inicialización de la clase ConcreteBuilder1, que crea una nueva
+    instancia de Product1 y la asigna a _product.
+    @property y def product(self) -> Product1:: Define un método product que devuelve el producto construido y luego
+    reinicia el constructor, preparándolo para construir otro producto.
+    def produce_part_a(self) -> None:: Define un método para construir la parte A del producto.
+    def produce_part_b(self) -> None:: Define un método para construir la parte B del producto.
+    def produce_part_c(self) -> None:: Define un método para construir la parte C del producto.
     """
 
     def __init__(self) -> None:
