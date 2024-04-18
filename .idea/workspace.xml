@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afa07ded-cb1e-4c71-956e-cf508506ec77" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/Builder/ComputerBuilder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/Builder/ComputerBuilderV2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/Builder/ComputerBuilder_.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DesignPatterns/Creacionales/Builder/Builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/Builder/Builder.py" afterDir="false" />
     </list>
@@ -42,6 +44,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="autoscrollToSource" value="true" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -57,6 +62,8 @@
     &quot;Python.Builder.executor&quot;: &quot;Run&quot;,
     &quot;Python.Builder_V1.executor&quot;: &quot;Run&quot;,
     &quot;Python.CompleteTree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ComputerBuilder.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ComputerBuilder_.executor&quot;: &quot;Run&quot;,
     &quot;Python.DeleteNode.executor&quot;: &quot;Run&quot;,
     &quot;Python.HighTree.executor&quot;: &quot;Run&quot;,
     &quot;Python.InordenTree.executor&quot;: &quot;Run&quot;,
@@ -219,7 +226,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712983732431</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1713068339302</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713068339302</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1713068366762</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713068366762</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
