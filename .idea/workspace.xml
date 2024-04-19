@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afa07ded-cb1e-4c71-956e-cf508506ec77" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/Builder/ComputerBuilder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/Builder/ComputerBuilderV2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/Builder/ComputerBuilder_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/AbstractFactory/AbstractFactory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPatterns/Creacionales/Builder/Builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/Builder/Builder.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,38 +53,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.BinaryTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Builder.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Builder_V1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.CompleteTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ComputerBuilder.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ComputerBuilder_.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DeleteNode.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HighTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.InordenTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LevelTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PostOrdenTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PostordenTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PreordenTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Prueba.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SearchTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Singlenton_V1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Singlenton_V2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Singlenton_V3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SumNodes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.builder_V3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.version.executor&quot;: &quot;Run&quot;,
-    &quot;Python.version_v2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Big Boy/OneDrive - UNIVERSIDAD INDUSTRIAL DE SANTANDER/Git Repositories/ejercicios-nivel-inovador-talento-tech&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;file.status.colors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.AbstractFactory.executor": "Run",
+    "Python.BinaryTree.executor": "Run",
+    "Python.Builder.executor": "Run",
+    "Python.Builder_V1.executor": "Run",
+    "Python.CompleteTree.executor": "Run",
+    "Python.ComputerBuilder.executor": "Run",
+    "Python.ComputerBuilder_.executor": "Run",
+    "Python.DeleteNode.executor": "Run",
+    "Python.HighTree.executor": "Run",
+    "Python.InordenTree.executor": "Run",
+    "Python.LevelTree.executor": "Run",
+    "Python.PostOrdenTree.executor": "Run",
+    "Python.PostordenTree.executor": "Run",
+    "Python.PreordenTree.executor": "Run",
+    "Python.Prueba.executor": "Run",
+    "Python.SearchTree.executor": "Run",
+    "Python.Singlenton_V1.executor": "Run",
+    "Python.Singlenton_V2.executor": "Run",
+    "Python.Singlenton_V3.executor": "Run",
+    "Python.SumNodes.executor": "Run",
+    "Python.builder_V3.executor": "Run",
+    "Python.version.executor": "Run",
+    "Python.version_v2.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Big Boy/OneDrive - UNIVERSIDAD INDUSTRIAL DE SANTANDER/Git Repositories/ejercicios-nivel-inovador-talento-tech",
+    "settings.editor.selected.configurable": "file.status.colors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Big Boy\OneDrive - UNIVERSIDAD INDUSTRIAL DE SANTANDER\Git Repositories\TalentoTech\DesignPatterns\Creacionales" />
@@ -242,7 +240,31 @@
       <option name="project" value="LOCAL" />
       <updated>1713068366762</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1713470155170</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1713470155170</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1713470174344</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1713470174344</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1713470194555</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1713470194555</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
