@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afa07ded-cb1e-4c71-956e-cf508506ec77" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/FactoryMethod/ConceptualExample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/FactoryMethod/FactoryMethod.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/Prototype/ConceptualExample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/Prototype/Prototype.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/Singleton/ConceptualExample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/Singleton/Singleton.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EnvironmentalManagementSystemProject/GraphViewer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TalentoTech.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TalentoTech.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns/Creacionales/AbstractFactory/AbstractFactory.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/AbstractFactory/AbstractFactory.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,39 +61,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.AbstractFactory.executor&quot;: &quot;Run&quot;,
-    &quot;Python.BinaryTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Builder.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Builder_V1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.CompleteTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ComputerBuilder.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ComputerBuilder_.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DeleteNode.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HighTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.InordenTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LevelTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PostOrdenTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PostordenTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PreordenTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Prueba.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SearchTree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Singlenton_V1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Singlenton_V2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Singlenton_V3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SumNodes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.builder_V3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.version.executor&quot;: &quot;Run&quot;,
-    &quot;Python.version_v2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Big Boy/OneDrive - UNIVERSIDAD INDUSTRIAL DE SANTANDER/Git Repositories/ejercicios-nivel-inovador-talento-tech&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;file.status.colors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.AbstractFactory.executor": "Run",
+    "Python.BinaryTree.executor": "Run",
+    "Python.Builder.executor": "Run",
+    "Python.Builder_V1.executor": "Run",
+    "Python.CompleteTree.executor": "Run",
+    "Python.ComputerBuilder.executor": "Run",
+    "Python.ComputerBuilder_.executor": "Run",
+    "Python.ConceptualExample.executor": "Run",
+    "Python.DeleteNode.executor": "Run",
+    "Python.GraphViewer.executor": "Run",
+    "Python.HighTree.executor": "Run",
+    "Python.InordenTree.executor": "Run",
+    "Python.LevelTree.executor": "Run",
+    "Python.PostOrdenTree.executor": "Run",
+    "Python.PostordenTree.executor": "Run",
+    "Python.PreordenTree.executor": "Run",
+    "Python.Prueba.executor": "Run",
+    "Python.SearchTree.executor": "Run",
+    "Python.Singlenton_V1.executor": "Run",
+    "Python.Singlenton_V2.executor": "Run",
+    "Python.Singlenton_V3.executor": "Run",
+    "Python.SumNodes.executor": "Run",
+    "Python.builder_V3.executor": "Run",
+    "Python.version.executor": "Run",
+    "Python.version_v2.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Big Boy/OneDrive - UNIVERSIDAD INDUSTRIAL DE SANTANDER/Git Repositories/TalentoTech",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="TalentoTech" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="TalentoTech" />
+      </console-settings>
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Big Boy\OneDrive - UNIVERSIDAD INDUSTRIAL DE SANTANDER\Git Repositories\TalentoTech\DesignPatterns\Creacionales" />
@@ -100,8 +119,9 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (TalentoTech)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BinaryTree/BinaryTreeOperations" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinaryTree/BinaryTreeOperations/BinaryTree.py" />
@@ -287,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713494508753</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1713576922486</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1713576922487</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
