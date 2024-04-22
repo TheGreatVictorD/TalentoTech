@@ -102,7 +102,7 @@ edge_labels = nx.get_edge_attributes(G, "label")
 
 # Crear una leyenda personalizada para los colores de los nodos
 legend_elements = [
-    plt.Line2D([0], [0], marker='o', color='w', label='Sistema de Monitoreo General',
+    plt.Line2D([0], [0], marker='o', color='w', label='Sistema de Monitoreo',
                markerfacecolor='black', markersize=10),
     plt.Line2D([0], [0], marker='o', color='w', label='Estado Crítico',
                markerfacecolor='red', markersize=10),
