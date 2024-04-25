@@ -62,7 +62,7 @@ for node in G.nodes():
         cambio_nivel_agua = random.uniform(-0.2, 0.1)  # Cambio en el nivel de agua entre -0.2 y 0.1
         nuevo_nivel_agua = max(0, round(water_level + cambio_nivel_agua))  # El nivel de agua no puede ser negativo
 
-        precipitation = random.uniform(0, 200)  # Generar precipitación aleatoria
+        precipitation = random.uniform(0, 1000)  # Generar precipitación aleatoria
         cambio_precipitacion = random.uniform(-0.2, 0.2)  # Cambio en la precipitación entre -0.2 y 0.2
         nueva_precipitacion = max(0, round(precipitation + cambio_precipitacion))  # La precipitación no puede ser
         # negativa
@@ -89,8 +89,16 @@ for node in G.nodes():
         embalse_padre = next(G.neighbors(node))
         # Asignar el color del embalse al nodo ciudad
         G.nodes[node]["color"] = G.nodes[embalse_padre]["color"]
+
+        # Asignar etiqueta de departamento según el embalse al que pertenece la ciudad
+        if embalse_padre in ["Embalse A", "Embalse B", "Embalse C"]:
+            G.nodes[node]["departamento"] = "Departamento: X"
+        elif embalse_padre in ["Embalse D", "Embalse E"]:
+            G.nodes[node]["departamento"] = "Departamento: Y"
+
         consumption = random.uniform(10, 50)  # Generar consumo aleatorio
-        G.nodes[node]["label"] = f"{node}\nConsumo de la ciudad: {consumption:.2f} m³/s"
+        G.nodes[node]["label"] = (f"{node}\nConsumo de la ciudad: {consumption:.2f} m³/s\n"
+                                  f"{G.nodes[node]['departamento']}")
 
 # Posicionar manualmente los nodos utilizando fruchterman_reingold_layout
 pos = nx.fruchterman_reingold_layout(G)
@@ -99,24 +107,21 @@ pos = nx.fruchterman_reingold_layout(G)
 node_colors = [G.nodes[node]["color"] for node in G.nodes()]
 node_labels = nx.get_node_attributes(G, "label")
 edge_labels = nx.get_edge_attributes(G, "label")
-
-# Crear una leyenda personalizada para los colores de los nodos
-legend_elements = [
-    plt.Line2D([0], [0], marker='o', color='w', label='Sistema de Monitoreo',
-               markerfacecolor='black', markersize=10),
-    plt.Line2D([0], [0], marker='o', color='w', label='Estado Crítico',
-               markerfacecolor='red', markersize=10),
-    plt.Line2D([0], [0], marker='o', color='w', label='Estado de Advertencia',
-               markerfacecolor='orange', markersize=10),
-    plt.Line2D([0], [0], marker='o', color='w', label='Estado Normal',
-               markerfacecolor='blue', markersize=10),
-    plt.Line2D([0], [0], marker='o', color='w', label='Estado Óptimo',
-               markerfacecolor='green', markersize=10),
-]
-
-plt.figure(figsize=(10, 10), num="Sistema de Gestión Ambiental")
+plt.figure(figsize=(10, 10), num="Sistema De Gestión Ambiental")
 nx.draw(G, pos, with_labels=True, labels=node_labels, node_size=500, font_size=8, node_color=node_colors)
 nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_color='brown')
 plt.title("Fruchterman Reingold Layout")
-plt.legend(handles=legend_elements, loc='upper right')
+
+# Crear una leyenda para los colores de los nodos
+legend_elements = []
+for color in set(node_colors):
+    if color == "black":
+        legend_elements.append(plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='black', markersize=10,
+                                          label='Estación de Monitoreo'))
+    else:
+        legend_elements.append(plt.Line2D([0], [0], marker='o', color='w', markerfacecolor=color, markersize=10,
+                                          label=f'Nivel de alerta: {color.capitalize()}'))
+
+plt.legend(handles=legend_elements, title='Colores de Nodos', loc='upper left', bbox_to_anchor=(1, 1))
+
 plt.show()
