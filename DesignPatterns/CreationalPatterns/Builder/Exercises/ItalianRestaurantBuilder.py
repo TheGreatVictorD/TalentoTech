@@ -3,6 +3,7 @@ from abc import ABC, abstractmethod
 from typing import Any
 
 
+# Interfaz Builder
 class OrderBuilder(ABC):
     @property
     @abstractmethod
@@ -54,6 +55,7 @@ class OrderBuilder(ABC):
         pass
 
 
+# Constructores Concretos
 class CustomOrderBuilder(OrderBuilder):
     def __init__(self) -> None:
         self.reset()
@@ -112,6 +114,7 @@ class CustomOrderBuilder(OrderBuilder):
                         ' delicados de los mariscos sin competir con ellos')
 
 
+# Producto
 class MainOrder:
     def __init__(self) -> None:
         self.items = []
@@ -123,6 +126,7 @@ class MainOrder:
         print(f"Order plates:\n{'\n'.join('\t-' + item for item in self.items)}")
 
 
+# Director
 class ItalianRestaurant:
     def __init__(self) -> None:
         self._builder = None
