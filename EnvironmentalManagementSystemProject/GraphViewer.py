@@ -107,21 +107,25 @@ pos = nx.fruchterman_reingold_layout(G)
 node_colors = [G.nodes[node]["color"] for node in G.nodes()]
 node_labels = nx.get_node_attributes(G, "label")
 edge_labels = nx.get_edge_attributes(G, "label")
-plt.figure(figsize=(10, 10), num="Sistema De Gestión Ambiental")
+
+# Crear una leyenda para los colores de los nodos
+legend_elements = [
+    plt.Line2D([0], [0], marker='o', color='w', label='Estados del Sistema',
+               markerfacecolor='black', markersize=10),
+    plt.Line2D([0], [0], marker='o', color='w', label='Estado Crítico',
+               markerfacecolor='red', markersize=10),
+    plt.Line2D([0], [0], marker='o', color='w', label='Estado de Advertencia',
+               markerfacecolor='orange', markersize=10),
+    plt.Line2D([0], [0], marker='o', color='w', label='Estado Normal',
+               markerfacecolor='blue', markersize=10),
+    plt.Line2D([0], [0], marker='o', color='w', label='Estado Óptimo',
+               markerfacecolor='green', markersize=10),
+]
+
+plt.figure(figsize=(10, 10), num="Sistema de Gestión Ambiental")
 nx.draw(G, pos, with_labels=True, labels=node_labels, node_size=500, font_size=8, node_color=node_colors)
 nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_color='brown')
 plt.title("Fruchterman Reingold Layout")
 
-# Crear una leyenda para los colores de los nodos
-legend_elements = []
-for color in set(node_colors):
-    if color == "black":
-        legend_elements.append(plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='black', markersize=10,
-                                          label='Estación de Monitoreo'))
-    else:
-        legend_elements.append(plt.Line2D([0], [0], marker='o', color='w', markerfacecolor=color, markersize=10,
-                                          label=f'Nivel de alerta: {color.capitalize()}'))
-
-plt.legend(handles=legend_elements, title='Colores de Nodos', loc='upper left', bbox_to_anchor=(1, 1))
-
+plt.legend(handles=legend_elements, loc='upper right')
 plt.show()
