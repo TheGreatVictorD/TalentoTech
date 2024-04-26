@@ -4,6 +4,9 @@ import platform
 
 # Interfaz fábrica abstracta
 class GUIFactory(ABC):
+    """
+    GUI significa "Interfaz Gráfica de Usuario" (Graphical User Interface en inglés)
+    """
     @abstractmethod
     def create_button(self):
         pass
