@@ -1,41 +1,60 @@
 """
-En este ejemplo, la clase Conductor tiene una dependencia con la clase Coche. Esto se debe a que
-Conductor utiliza a Coche en su método conducir(). Esto significa que Conductor no puede funcionar
-sin Coche, y si Coche cambia (por ejemplo, si cambias el atributo marca), entonces Conductor también
-podría verse afectado.
-
-En términos más simples, puedes pensar en la dependencia como una “relación de usa”. En este caso, un
-Conductor usa un Coche.
+Supongamos que tenemos una clase Motor y una clase Coche. El coche depende del
+motor para funcionar, pero el motor puede ser reemplazado o actualizado sin
+afectar directamente al coche. La dependencia en este caso radica en el hecho
+de que el coche usa el motor para su funcionamiento, pero no tiene una relación
+de "tener" o "contener" como en las asociaciones.
 """
+
+
+class Motor:
+    def __init__(self, tipo):
+        self.tipo = tipo
+
+    def arrancar(self):
+        print("Motor arrancado")
 
 
 class Coche:
-    def __init__(self, marca):
+    def __init__(self, marca, motor):
         self.marca = marca
+        self.motor = motor  # Dependencia del motor
+
+    def encender(self):
+        self.motor.arrancar()
+        print(f"{self.marca} encendido")
 
 
-class Conductor:
-    def conducir(self, coche):
-        print(f"Conduciendo un coche de marca {coche.marca}")
+# Crear un motor inicial
+motor_coche = Motor("Gasolina")
 
+# Crear un coche que depende del motor inicial
+mi_coche = Coche("Toyota", motor_coche)
 
-coche = Coche("Toyota")
-conductor = Conductor()
-conductor.conducir(coche)  # Imprime: Conduciendo un coche de marca Toyota
+# Encender el coche inicial
+mi_coche.encender()
+
+# Crear un nuevo motor
+nuevo_motor = Motor("Eléctrico")
+
+# Cambiar el motor del coche por el nuevo motor
+mi_coche.motor = nuevo_motor
+
+# Encender el coche con el nuevo motor
+mi_coche.encender()
 
 
 """
-Diferencia entre dependencia y composición:
+En este ejemplo, la clase Coche tiene una dependencia de la clase Motor. El coche utiliza el 
+motor para arrancar y funcionar (self.motor.arrancar() en el método encender). Sin embargo, 
+el coche no posee el motor ni tiene una relación de composición o agregación con él; simplemente 
+depende de él para su funcionamiento.
 
-    -Composición: Imagina que estás construyendo un coche. El coche se compone de varias partes como el motor, 
-    las ruedas, los asientos, etc. Si el coche se destruye, todas sus partes (motor, ruedas, asientos) también 
-    se destruyen. No puedes simplemente tomar el motor y decir que es un coche. Eso es la composición. En  
-    términos de programación, un objeto de una clase (el coche) se compone de objetos de otras clases (motor, 
-    ruedas, asientos).
+Puedes notar que el motor se pasa como un argumento al inicializar un objeto Coche. Esto muestra la 
+dependencia del coche en el motor. Si el motor cambia o se actualiza, el coche seguirá funcionando 
+siempre y cuando el nuevo motor también tenga un método arrancar.
 
-    -Dependencia: Ahora, imagina que tienes un conductor. El conductor usa el coche para ir a algún lugar, 
-    pero el conductor y el coche son entidades separadas y pueden existir independientemente. Si el coche se 
-    destruye, el conductor todavía existe. El conductor depende del coche para conducir, pero no es parte del 
-    coche. Eso es la dependencia. En términos de programación, un objeto de una clase (el conductor) utiliza 
-    un objeto de otra clase (el coche), pero no son parte del mismo objeto.
+# El motor del coche se puede actualizar o cambiar simplemente asignando un nuevo objeto Motor al 
+atributo motor del coche. Esto demuestra la flexibilidad y la independencia de la dependencia del 
+coche en relación con el motor.
 """
