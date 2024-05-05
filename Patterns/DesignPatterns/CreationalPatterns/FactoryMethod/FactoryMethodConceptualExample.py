@@ -21,10 +21,11 @@ class Creator(ABC):
         """
         También tenga en cuenta que, a pesar de su nombre, la responsabilidad
         principal del Creador no es crear productos. Por lo general, contiene
-        alguna lógica empresarial central que se basa en objetos Producto,
-        devueltos por el método de fábrica.
+        alguna lógica empresarial central que se basa en objetos del tipo
+        Producto, devueltos por el método de fábrica.
         Las subclases pueden cambiar indirectamente esa lógica empresarial
-        anulando el método de fábrica y devolviendo un tipo diferente de producto.
+        anulando el método de fábrica y devolviendo un tipo diferente de
+        producto.
         """
 
         # Call the factory method to create a Product object.
