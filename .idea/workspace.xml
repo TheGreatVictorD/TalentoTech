@@ -5,16 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afa07ded-cb1e-4c71-956e-cf508506ec77" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/FactoryMethod/ConceptualExample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/FactoryMethod/FactoryMethod.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/Prototype/ConceptualExample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/Prototype/Prototype.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/Singleton/ConceptualExample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/Singleton/Singleton.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnvironmentalManagementSystemProject/GraphViewer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TalentoTech.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TalentoTech.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns/DesignPatterns/BehaviorPatterns/BehaviorPatterns.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns/DesignPatterns/CreationalPatterns/Prototype/ConceptualExample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns/DesignPatterns/CreationalPatterns/Prototype/Prototype.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns/DesignPatterns/CreationalPatterns/Singleton/ConceptualExample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns/DesignPatterns/CreationalPatterns/Singleton/Singleton.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patterns/DesignPatterns/StructuralPatterns/StructuralPatterns.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPatterns/Creacionales/AbstractFactory/AbstractFactory.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns/Creacionales/AbstractFactory/AbstractFactory.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns/Creacionales/AbstractFactory/AbstractFactory.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns/Creacionales/AbstractFactory/AbstractFactory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns/Creacionales/Builder/Builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns/Creacionales/Builder/Builder_V1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns/Creacionales/Builder/Builder_V2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns/Creacionales/Builder/ComputerBuilder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns/Creacionales/Builder/ComputerBuilderV2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns/Creacionales/Builder/ComputerBuilder_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns/Creacionales/Builder/builder_V3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns/Creacionales/Creational Patterns.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns/Creacionales/FactoryMethod/ConceptualExample.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns/Creacionales/FactoryMethod/FactoryMethod.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns/Creacionales/Prototype/ConceptualExample.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns/Creacionales/Prototype/Prototype.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns/Creacionales/Singleton/ConceptualExample.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns/Creacionales/Singleton/Singlenton_V1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns/Creacionales/Singleton/Singlenton_V2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns/Creacionales/Singleton/Singlenton_V3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns/Creacionales/Singleton/Singleton.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns/Design Pattern.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patterns/DesignPatterns/CreationalPatterns/FactoryMethod/ConceptualExample.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RelationsBetweenClasses/Composition(Composición)/Composition.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RelationsBetweenClasses/Inheritance(Herencia)/Inheritance.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +64,8 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/DesignPatterns/Builder/Builder_V1.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/DesignPatterns/CreationalPatterns/Builder/Exercises/BookstoreBuilder.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DesignPatterns/CreationalPatterns/Builder/Exercises/ItalianRestaurantBuilder.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,46 +77,72 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2ecZnKyJJh0PQs7fhWdu0XZhdEI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.AbstractFactory.executor": "Run",
-    "Python.BinaryTree.executor": "Run",
-    "Python.Builder.executor": "Run",
-    "Python.Builder_V1.executor": "Run",
-    "Python.CompleteTree.executor": "Run",
-    "Python.ComputerBuilder.executor": "Run",
-    "Python.ComputerBuilder_.executor": "Run",
-    "Python.ConceptualExample.executor": "Run",
-    "Python.DeleteNode.executor": "Run",
-    "Python.GraphViewer.executor": "Run",
-    "Python.HighTree.executor": "Run",
-    "Python.InordenTree.executor": "Run",
-    "Python.LevelTree.executor": "Run",
-    "Python.PostOrdenTree.executor": "Run",
-    "Python.PostordenTree.executor": "Run",
-    "Python.PreordenTree.executor": "Run",
-    "Python.Prueba.executor": "Run",
-    "Python.SearchTree.executor": "Run",
-    "Python.Singlenton_V1.executor": "Run",
-    "Python.Singlenton_V2.executor": "Run",
-    "Python.Singlenton_V3.executor": "Run",
-    "Python.SumNodes.executor": "Run",
-    "Python.builder_V3.executor": "Run",
-    "Python.version.executor": "Run",
-    "Python.version_v2.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Big Boy/OneDrive - UNIVERSIDAD INDUSTRIAL DE SANTANDER/Git Repositories/TalentoTech",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.AbstractFactory.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AbstractFactoryConceptualExample.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Agregation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AnimalCookiesFactoryMethod.executor&quot;: &quot;Run&quot;,
+    &quot;Python.BinaryTree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.BookstoreBuilder.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Builder.executor&quot;: &quot;Run&quot;,
+    &quot;Python.BuilderConceptualExample.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Builder_V1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CarBuilder.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CompleteTree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Composition.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ComputerBuider.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ComputerBuider_V2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ComputerBuilder.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ComputerBuilder_.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ComputerBuilder_V3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ComputerBuilder_v4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ConceptualExample.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DeleteNode.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Dependency.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FactoryMethodConceptualExample.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Generalization.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GraphViewer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GuiAbstractFactory.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HighTree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.InordenTree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ItalianRestaurantBuilder.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LevelTree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PizzaShopBuilder.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PostOrdenTree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PostordenTree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PreordenTree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Prueba.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Realization.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RestaurantBuilder.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SearchTree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Simple.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Singlenton_V1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Singlenton_V2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Singlenton_V3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SumNodes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.VehicleAbstractFactory.executor&quot;: &quot;Run&quot;,
+    &quot;Python.VehicleFactoryMethod.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bjlkjc.executor&quot;: &quot;Run&quot;,
+    &quot;Python.builder_V3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.onjo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.version.executor&quot;: &quot;Run&quot;,
+    &quot;Python.version_v2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Big Boy/OneDrive - UNIVERSIDAD INDUSTRIAL DE SANTANDER/Git Repositories/ejercicios-nivel-inovador-talento-tech&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="TalentoTech" is-module-sdk="true">
@@ -106,6 +153,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Big Boy\OneDrive - UNIVERSIDAD INDUSTRIAL DE SANTANDER\Git Repositories\TalentoTech\RelationsBetweenClasses\Inheritance(Herencia)\Realization(Realización)" />
+      <recent name="C:\Users\Big Boy\OneDrive - UNIVERSIDAD INDUSTRIAL DE SANTANDER\Git Repositories\TalentoTech\RelationsBetweenClasses\Inheritance(Herencia)\Generalization(Generalización)" />
+      <recent name="C:\Users\Big Boy\OneDrive - UNIVERSIDAD INDUSTRIAL DE SANTANDER\Git Repositories\TalentoTech\RelationsBetweenClasses\Association(Asociación)" />
+      <recent name="C:\Users\Big Boy\OneDrive - UNIVERSIDAD INDUSTRIAL DE SANTANDER\Git Repositories\TalentoTech\Patterns" />
       <recent name="C:\Users\Big Boy\OneDrive - UNIVERSIDAD INDUSTRIAL DE SANTANDER\Git Repositories\TalentoTech\DesignPatterns\Creacionales" />
     </key>
   </component>
@@ -155,168 +206,411 @@
       <option name="presentableId" value="Default" />
       <updated>1712205994102</updated>
     </task>
-    <task id="LOCAL-00001" summary="Initial commit">
+    <task id="LOCAL-00038" summary="Initial commit">
       <option name="closed" value="true" />
-      <created>1712207116188</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+      <created>1713809185102</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
       <option name="project" value="LOCAL" />
-      <updated>1712207116188</updated>
+      <updated>1713809185102</updated>
     </task>
-    <task id="LOCAL-00002" summary="Initial commit">
+    <task id="LOCAL-00039" summary="Initial commit">
       <option name="closed" value="true" />
-      <created>1712207373046</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+      <created>1714075559597</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
       <option name="project" value="LOCAL" />
-      <updated>1712207373047</updated>
+      <updated>1714075559598</updated>
     </task>
-    <task id="LOCAL-00003" summary="Initial commit">
+    <task id="LOCAL-00040" summary="Initial commit">
       <option name="closed" value="true" />
-      <created>1712288236862</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
+      <created>1714076586814</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
       <option name="project" value="LOCAL" />
-      <updated>1712288236863</updated>
+      <updated>1714076586814</updated>
     </task>
-    <task id="LOCAL-00004" summary="Initial commit">
+    <task id="LOCAL-00041" summary="Initial commit">
       <option name="closed" value="true" />
-      <created>1712630078096</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+      <created>1714088184993</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
       <option name="project" value="LOCAL" />
-      <updated>1712630078097</updated>
+      <updated>1714088184994</updated>
     </task>
-    <task id="LOCAL-00005" summary="Initial commit">
+    <task id="LOCAL-00042" summary="Initial commit">
       <option name="closed" value="true" />
-      <created>1712720215900</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
+      <created>1714089596148</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
       <option name="project" value="LOCAL" />
-      <updated>1712720215900</updated>
+      <updated>1714089596148</updated>
     </task>
-    <task id="LOCAL-00006" summary="Initial commit">
+    <task id="LOCAL-00043" summary="Initial commit">
       <option name="closed" value="true" />
-      <created>1712804023720</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
+      <created>1714144958328</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
       <option name="project" value="LOCAL" />
-      <updated>1712804023720</updated>
+      <updated>1714144958329</updated>
     </task>
-    <task id="LOCAL-00007" summary="Initial commit">
+    <task id="LOCAL-00044" summary="Initial commit">
       <option name="closed" value="true" />
-      <created>1712887479592</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
+      <created>1714158068051</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
       <option name="project" value="LOCAL" />
-      <updated>1712887479593</updated>
+      <updated>1714158068052</updated>
     </task>
-    <task id="LOCAL-00008" summary="Initial commit">
+    <task id="LOCAL-00045" summary="Initial commit">
       <option name="closed" value="true" />
-      <created>1712888892375</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
+      <created>1714162532367</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
       <option name="project" value="LOCAL" />
-      <updated>1712888892375</updated>
+      <updated>1714162532368</updated>
     </task>
-    <task id="LOCAL-00009" summary="Initial commit">
+    <task id="LOCAL-00046" summary="Initial commit">
       <option name="closed" value="true" />
-      <created>1712889086580</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
+      <created>1714162631559</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
       <option name="project" value="LOCAL" />
-      <updated>1712889086581</updated>
+      <updated>1714162631559</updated>
     </task>
-    <task id="LOCAL-00010" summary="Initial commit">
+    <task id="LOCAL-00047" summary="Initial commit">
       <option name="closed" value="true" />
-      <created>1712982939847</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
+      <created>1714165099738</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
       <option name="project" value="LOCAL" />
-      <updated>1712982939847</updated>
+      <updated>1714165099738</updated>
     </task>
-    <task id="LOCAL-00011" summary="Initial commit">
+    <task id="LOCAL-00048" summary="Initial commit">
       <option name="closed" value="true" />
-      <created>1712983732431</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
+      <created>1714165391187</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
       <option name="project" value="LOCAL" />
-      <updated>1712983732431</updated>
+      <updated>1714165391187</updated>
     </task>
-    <task id="LOCAL-00012" summary="Initial commit">
+    <task id="LOCAL-00049" summary="Initial commit">
       <option name="closed" value="true" />
-      <created>1713068339302</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
+      <created>1714190847918</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
       <option name="project" value="LOCAL" />
-      <updated>1713068339302</updated>
+      <updated>1714190847918</updated>
     </task>
-    <task id="LOCAL-00013" summary="Initial commit">
+    <task id="LOCAL-00050" summary="Initial commit">
       <option name="closed" value="true" />
-      <created>1713068366762</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
+      <created>1714348079028</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
       <option name="project" value="LOCAL" />
-      <updated>1713068366762</updated>
+      <updated>1714348079028</updated>
     </task>
-    <task id="LOCAL-00014" summary="Initial commit">
+    <task id="LOCAL-00051" summary="Initial commit">
       <option name="closed" value="true" />
-      <created>1713470155170</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
+      <created>1714348147625</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
       <option name="project" value="LOCAL" />
-      <updated>1713470155170</updated>
+      <updated>1714348147625</updated>
     </task>
-    <task id="LOCAL-00015" summary="Initial commit">
+    <task id="LOCAL-00052" summary="Initial commit">
       <option name="closed" value="true" />
-      <created>1713470174344</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
+      <created>1714348210924</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
       <option name="project" value="LOCAL" />
-      <updated>1713470174344</updated>
+      <updated>1714348210924</updated>
     </task>
-    <task id="LOCAL-00016" summary="Initial commit">
+    <task id="LOCAL-00053" summary="Initial commit">
       <option name="closed" value="true" />
-      <created>1713470194555</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
+      <created>1714348257120</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
       <option name="project" value="LOCAL" />
-      <updated>1713470194555</updated>
+      <updated>1714348257120</updated>
     </task>
-    <task id="LOCAL-00017" summary="Initial commit">
+    <task id="LOCAL-00054" summary="Initial commit">
       <option name="closed" value="true" />
-      <created>1713492085361</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
+      <created>1714348294578</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
       <option name="project" value="LOCAL" />
-      <updated>1713492085362</updated>
+      <updated>1714348294578</updated>
     </task>
-    <task id="LOCAL-00018" summary="Initial commit">
+    <task id="LOCAL-00055" summary="Initial commit">
       <option name="closed" value="true" />
-      <created>1713494445308</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
+      <created>1714348578541</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
       <option name="project" value="LOCAL" />
-      <updated>1713494445308</updated>
+      <updated>1714348578541</updated>
     </task>
-    <task id="LOCAL-00019" summary="Initial commit">
+    <task id="LOCAL-00056" summary="Initial commit">
       <option name="closed" value="true" />
-      <created>1713494508753</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
+      <created>1714352609884</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
       <option name="project" value="LOCAL" />
-      <updated>1713494508753</updated>
+      <updated>1714352609885</updated>
     </task>
-    <task id="LOCAL-00020" summary="Initial commit">
+    <task id="LOCAL-00057" summary="Initial commit">
       <option name="closed" value="true" />
-      <created>1713576922486</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
+      <created>1714353406888</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
       <option name="project" value="LOCAL" />
-      <updated>1713576922487</updated>
+      <updated>1714353406889</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00058" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714357771231</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1714357771231</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714357799823</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1714357799824</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714420956959</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1714420956961</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714421292377</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1714421292378</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714422254055</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1714422254055</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714758882679</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1714758882680</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714759932839</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1714759932839</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714760199921</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1714760199921</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714761254791</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1714761254791</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714761294156</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1714761294156</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714762344435</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1714762344435</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714783766315</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1714783766316</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714783794087</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1714783794087</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714792435081</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1714792435082</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714792804811</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1714792804811</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714798115280</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1714798115281</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714798151893</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1714798151893</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714798859262</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1714798859262</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714798884596</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1714798884596</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714798913905</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1714798913905</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714879341275</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1714879341276</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714879363819</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1714879363819</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714879403710</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1714879403710</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714879569303</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1714879569303</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714879619193</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1714879619197</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714879655643</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1714879655643</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714879865968</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1714879865968</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714965264521</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1714965264523</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714965286604</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1714965286604</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
