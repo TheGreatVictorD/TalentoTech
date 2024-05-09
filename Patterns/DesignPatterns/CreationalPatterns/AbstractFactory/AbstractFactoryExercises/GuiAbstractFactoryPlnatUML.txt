@@ -1,0 +1,71 @@
+@startuml
+interface GUIFactory {
+  +{abstract} create_button()
+  +{abstract} create_checkbox()
+}
+
+class WinFactory {
+  +create_button()
+  +create_checkbox()
+}
+
+class MacFactory {
+  +create_button()
+  +create_checkbox()
+}
+
+GUIFactory <|.. WinFactory
+GUIFactory <|.. MacFactory
+
+WinFactory o.. WinButton : creates >
+WinFactory o.. WinCheckbox : creates >
+MacFactory o.. MacButton : creates >
+MacFactory o.. MacCheckbox : creates >
+
+interface Button {
+  +{abstract} paint()
+}
+
+class WinButton {
+  +paint()
+}
+
+class MacButton {
+  +paint()
+}
+
+Button <|.. WinButton
+Button <|.. MacButton
+
+interface Checkbox {
+  +{abstract} paint()
+}
+
+class WinCheckbox {
+  +paint()
+}
+
+class MacCheckbox {
+  +paint()
+}
+
+Checkbox <|.. WinCheckbox
+Checkbox <|.. MacCheckbox
+
+class Application {
+  +factory: GUIFactory
+  +button: Button
+  +checkbox: Checkbox
+  +__init__(factory: GUIFactory)
+  +create_ui()
+  +paint()
+}
+
+class ApplicationConfigurator {
+  +{static} main()
+}
+
+Application o.. WinFactory
+Application o.. MacFactory
+ApplicationConfigurator ..> Application
+@enduml

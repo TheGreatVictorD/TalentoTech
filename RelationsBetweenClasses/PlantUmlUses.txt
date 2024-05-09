@@ -1,0 +1,14 @@
+-Herencia:
+	X "es un" Y;
+	Generalizacion: --|>
+	Realizacion: ..|>
+	
+-Dependencia: ..>
+	X "usa Y;
+	
+	
+-Asociaciones:
+	X "Tiene/Contiene" Y;
+	 Simple: --
+	 Agregacion: ..o
+	 Composicion:--o
